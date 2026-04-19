@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: data-engineering-492615-c7
+    schema: bigQuery_dataset
+
+    tables:
+      - name: green_tripdata_2019_01
+
+      - name: yellow_taxi_trips
